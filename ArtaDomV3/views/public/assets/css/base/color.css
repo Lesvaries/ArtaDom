@@ -1,0 +1,20 @@
+:root {
+    --primary-color: #27568e;
+    --secondary-color: #edd4a3;
+    --background-color: #f4f4f4;
+    --style-element: var(--gray-300);
+
+    --font-color-dark: #111;
+    --font-color-light: #f5f5f5;
+
+    --gray-50: #F8F9FA;
+    --gray-100: #F1F3F4;
+    --gray-200: #E9ECEF;
+    --gray-300: #DEE2E6;
+    --gray-400: #CED4DA;
+    --gray-500: #ADB5BD;
+    --gray-600: #868E96;
+    --gray-700: #495057;
+    --gray-800: #343A40;
+    --gray-900: #212529;
+}

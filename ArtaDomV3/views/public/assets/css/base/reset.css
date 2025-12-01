@@ -1,0 +1,85 @@
+/* 
+ * Reset CSS - Réinitialisation des styles par défaut
+ * Élimine les différences entre navigateurs
+ */
+
+/* Réinitialisation globale */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Réinitialisation des éléments spécifiques */
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Éléments de texte */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+p, ul, ol, dl {
+  margin: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* Éléments de formulaire */
+button, input, textarea, select {
+  font: inherit;
+  border: none;
+  padding: 0;
+  background: transparent;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, textarea {
+  border-radius: 0;
+}
+
+/* Éléments média */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Éléments de tableau */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Éléments sémantiques */
+fieldset, legend {
+  padding: 0;
+  border: none;
+}
+
+/* Correction des espaces dans les liens */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Correction des espaces dans les boutons */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
